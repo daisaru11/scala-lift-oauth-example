@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <title>Twitter</title>
+  </head>
+  <body class="lift:content_id=main">
+    <div id="main" class="lift:surround?with=default;at=content">
+      <h2>Login with Facebook</h2>
+		<lift:Facebookloginbinder.login>
+			<form method="POST" login:action="/facebook">
+			<login:submit />
+			</form>
+		</lift:Facebookloginbinder.login>
+    </div>
+  </body>
+</html>
+
+

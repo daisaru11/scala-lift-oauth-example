@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <title>Twitter</title>
+  </head>
+  <body class="lift:content_id=main">
+    <div id="main" class="lift:surround?with=default;at=content">
+      <h2>Login with Twitter</h2>
+		<lift:Googleplusloginbinder.login>
+			<form method="POST" login:action="/google_plus">
+			<login:submit />
+			</form>
+		</lift:GoogleplusLoginbinder.login>
+    </div>
+  </body>
+</html>
+
+
+
